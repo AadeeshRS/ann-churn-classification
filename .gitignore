@@ -1,0 +1,40 @@
+__pycache__/
+.venv/
+env/
+.env
+*.pyc
+.ipynb_checkpoints/
+.streamlit/
+logs/
+.vscode/
+.idea/
+.DS_Store
+
+# Optional: ignore the model if you don't want to commit it
+# model.h5
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit cache / logs
+.streamlit/
+logs/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Optional: ignore model file (if you do NOT want to store it in repo)
+# model.h5
