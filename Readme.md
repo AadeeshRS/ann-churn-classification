@@ -98,6 +98,7 @@ If `model.h5` is already large and present, ensure it is added after `git lfs tr
 
 ## Notes
 - Ensure `model.h5` and the pickle preprocessors are present in the repository root (or adjust `app.py` paths).
+- `runtime.txt` pins Streamlit Cloud to Python 3.11 because TensorFlow does not provide wheels for Python 3.14.
 - To silence TensorFlow oneDNN messages in some environments, set:
   - Linux/macOS: `export TF_ENABLE_ONEDNN_OPTS=0`
   - Windows (PowerShell): `$env:TF_ENABLE_ONEDNN_OPTS = "0"`
